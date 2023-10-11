@@ -1,4 +1,5 @@
 import ray
+import pyrep.backend.sim
 from ray import tune
 from ray.tune.registry import register_env
 from ray.rllib.models import ModelCatalog
